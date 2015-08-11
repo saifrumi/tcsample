@@ -3,6 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleTc", "SampleTc\SampleTc.csproj", "{5684507D-C116-4716-9A86-5983A630A4BB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B036C422-AD13-470D-A56F-B2A63C49095A}"
+	ProjectSection(SolutionItems) = preProject
+		SampleTc.build = SampleTc.build
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{21F4A53A-11B0-4283-96B0-2ABE9BADB6AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +20,8 @@ Global
 		{5684507D-C116-4716-9A86-5983A630A4BB}.Debug|x86.Build.0 = Debug|x86
 		{5684507D-C116-4716-9A86-5983A630A4BB}.Release|x86.ActiveCfg = Release|x86
 		{5684507D-C116-4716-9A86-5983A630A4BB}.Release|x86.Build.0 = Release|x86
+		{21F4A53A-11B0-4283-96B0-2ABE9BADB6AC}.Debug|x86.ActiveCfg = Debug
+		{21F4A53A-11B0-4283-96B0-2ABE9BADB6AC}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
